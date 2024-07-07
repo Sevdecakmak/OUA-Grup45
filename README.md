@@ -1,5 +1,5 @@
-## Takım İsmi
-U - 45 Unity Takımı
+<h1 align="center"> U-45 Unity Takımı Readme & Sprint Review </h1>
+
 
 ## Takım Üyeleri
 - ***Serenaat***
