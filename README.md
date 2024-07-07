@@ -13,7 +13,7 @@
 Herald of Crows
 
 ## Product Backlog URL
-[Backlog](https://app.milanote.com/1Smtq11rAhAxej?p=GGTn82gsDdG) uygulaması olarak Milanote tercih edilmiştir.
+[Backlog](https://app.milanote.com/1Slqve1Muzpr4R?p=GGTn82gsDdG) uygulaması olarak Milanote tercih edilmiştir.
 
 ## Oyun Açıklaması
 Herald of Crows üzerindeki bir lanet sebebiyle uğursuz olduğuna inanılan ve ayrımcılığa uğrayan bir karganın, çeşitli düşmanlar ve bulmacalar aracılığıyla kendini keşfetmesini konu alan, görsel stratejiye dayalı bir macera oyundur.
