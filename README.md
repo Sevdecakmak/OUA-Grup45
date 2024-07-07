@@ -2,9 +2,9 @@
 
 
 ## Takım Üyeleri
-- ***Serenat Varol*** - Scrum Master / Designer
+- ***Serenat Varol*** - Scrum Master / Asset Designer
 - ***Rümeysa Sevde Çakmak*** - Product Owner / Developer
-- ***Salih Karakuş*** - Designer / Developer
+- ***Salih Karakuş*** - Developer / Environmental Designer
 - ***Rıdvan Karasubaşı*** - Developer
 - ***Ömer Faruk Bingöl*** - Developer
 
@@ -34,7 +34,7 @@ Herald of Crows üzerindeki bir lanet sebebiyle uğursuz olduğuna inanılan ve 
 
 <details><summary><h2>Sprint 1</h2> </summary>
 
-* Sprint içi puan değerlendirmesi 100 üzerinden belirlenmiştir.
+* Sprint içi puan değerlendirmesi 100 üzerinden belirlenmiştir. 4 Puan değerindeki Puzzle görevi tamamlanamadığından 96/100 puanla bitmiştir. Bonus olarak User Interface tasarlanmış ve Sprint 3'te olması gereken bir görevin yükü azaltılmıştır.
 * Projenin totalde 350 puan değerinde olması beklenmektedir.
 * Sprint 1 süreci bütün takım üyelerinin en az mesai ayırabileceği dönem olduğundan mümkün olduğunca tasarıma, kaynak toplamaya ve herkesin ayrı ayrı çalışmasına karar verilmiştir. Tamamlanan görevler backlog ve iletişim kanallarıyla haberleşilmiş ancak bir araya getirilip temizlik açısından Github repository'sine eklenmemiştir. Ana projeye merge işlemleri bütün takım üyelerinin toplantılarda vereceği kararlarla Sprint 2 sürecinde gerçekleştirilecektir.
 * <b>Daily Scrum: </b> Günlük konuşmalar ve anketler Whatsapp üzerinden gerçekleştirilirken toplantılar için fonksiyonabilitesi sebebiyle Discord tercih edilmiştir.
