@@ -52,10 +52,13 @@ BU GEECE REVIEW SIRASINDA DISCORDD SSI ALMAYI UNUTÖMA!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 * Seçilen / Tasarlanan bazı Assetler: </br>
 
-<h3 align="center"> <a href="https://sketchfab.com/3d-models/snake-attack-animations-multiple-83c4290cd4b648fd942d4bbc2280a3f6?utm_medium=embed&utm_campaign=share-popup&utm_content=83c4290cd4b648fd942d4bbc2280a3f6" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Snake attack Animations (Multiple) </a> </h3> </br>
+<h3 align="center"> <a href="https://sketchfab.com/3d-models/snake-attack-animations-multiple-83c4290cd4b648fd942d4bbc2280a3f6?utm_medium=embed&utm_campaign=share-popup&utm_content=83c4290cd4b648fd942d4bbc2280a3f6" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Snake Animations (Multiple) </a> </h3> </br>
 
+![snake](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/3c8ce126-879a-4183-aed6-743dffd13567)
 
+<h3 align="center"> <a href="https://sketchfab.com/models/e2e6d407b18547d2a9ed37a1707042e1/embed"> Crow Asset </a> </h3> </br>
 
+![crow](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/cbd39e6a-adee-4185-91ba-dd951cd6486b)
   
 </details>
 
