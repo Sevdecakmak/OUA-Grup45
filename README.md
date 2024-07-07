@@ -2,11 +2,11 @@
 
 
 ## Takım Üyeleri
-- ***Serenat Varol*** - Scrum Master
-- ***Rümeysa Sevde Çakmak***
-- ***Salih Karakuş*** 
-- ***Rıdvan Karasubaşı***
-- ***Ömer Faruk Bingöl*** 
+- ***Serenat Varol*** - Scrum Master / Designer
+- ***Rümeysa Sevde Çakmak*** - Product Owner / Developer
+- ***Salih Karakuş*** - Designer / Developer
+- ***Rıdvan Karasubaşı*** - Developer
+- ***Ömer Faruk Bingöl*** - Developer
 
 
 ## Oyun İsmi
@@ -36,7 +36,7 @@ Herald of Crows üzerindeki bir lanet sebebiyle uğursuz olduğuna inanılan ve 
 
 * Sprint içi puan değerlendirmesi 100 üzerinden belirlenmiştir.
 * Projenin totalde 350 puan değerinde olması beklenmektedir.
-* Sprint 1 süreci bütün takım üyelerinin en az mesai ayırabileceği dönem olduğundan mümkün olduğunca tasarım ve kaynak toplamaya ve herkesin ayrı ayrı çalışmasına karar verilmiştir. Tamamlanan görevler backlog ve iletişim kanallarıyla haberleşilmiş ancak bir araya getirilip temizlik açısından Github repository'sine eklenmemiştir. Ana projeye merge işlemleri bütün takım üyelerinin toplantılarda vereceği kararlarla Sprint 2 sürecinde gerçekleştirilecektir.
+* Sprint 1 süreci bütün takım üyelerinin en az mesai ayırabileceği dönem olduğundan mümkün olduğunca tasarıma, kaynak toplamaya ve herkesin ayrı ayrı çalışmasına karar verilmiştir. Tamamlanan görevler backlog ve iletişim kanallarıyla haberleşilmiş ancak bir araya getirilip temizlik açısından Github repository'sine eklenmemiştir. Ana projeye merge işlemleri bütün takım üyelerinin toplantılarda vereceği kararlarla Sprint 2 sürecinde gerçekleştirilecektir.
 * <b>Daily Scrum: </b> Günlük konuşmalar ve anketler Whatsapp üzerinden gerçekleştirilirken toplantılar için fonksiyonabilitesi sebebiyle Discord tercih edilmiştir.
 * Toplantılara katılım sağlayamamış üyelerin geri kalmaması açısından kısa görüşme özetleri içeren [ortak bir döküman](https://docs.google.com/document/d/1Ae8FYZowJhssbUb1zqXL1aqo0bAXkMyHa2stOofVKuo/edit?usp=sharing) hazırlanmıştır.
 
