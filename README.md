@@ -45,8 +45,8 @@ Herald of Crows üzerindeki bir lanet sebebiyle uğursuz olduğuna inanılan ve 
 ![milanote](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/62e64f83-c818-41fe-b9f4-672506308ac1) </br>
 ![canvas_level--area--scene-design-240707_1740](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/7ff81fab-7b23-49ad-ae4f-6ff2ee09e9d6) </br>
 ![canvas_general-inspo--sources-240707_1752](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/b795e3e1-8fd2-4caa-b288-4f3e2dbe1489) </br>
-> [!NOTE]
-> Sprint içerikleri renk kodlarıyla ayrılacaktır. Sprint 1 mavi başlıklı görevleri içermektedir. Ayrıyeten öncelikli görevler highlightlanmıştır.
+
+   > Sprint içerikleri renk kodlarıyla ayrılacaktır. Sprint 1 mavi başlıklı görevleri içermektedir. Ayrıyeten öncelikli görevler highlightlanmıştır.
 
 * Toplantı ve Sohbet Görselleri, Anketler: </br>
 ![sprint1wp](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/de7bed66-e8f8-4fb3-b7bc-b38e5ef1aa1c)</br>
