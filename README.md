@@ -51,7 +51,8 @@ Herald of Crows üzerindeki bir lanet sebebiyle uğursuz olduğuna inanılan ve 
 * Toplantı ve Sohbet Görselleri, Anketler: </br>
 ![sprint1wp](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/de7bed66-e8f8-4fb3-b7bc-b38e5ef1aa1c)</br>
 ![image](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/6d653f16-1bda-44b5-bcd2-92bb123b15bd) </br>
-BU GEECE REVIEW SIRASINDA DISCORDD SSI ALMAYI UNUTÖMA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+![discord](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/fe19a5b0-5423-40bd-a63f-b9a58411cb6f) </br>
+
 
 * Seçilen / Tasarlanan bazı Assetler: </br>
 
