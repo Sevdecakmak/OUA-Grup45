@@ -46,7 +46,7 @@ OYUNISMI üzerindeki bir lanet sebebiyle uğursuz olduğuna inanılan ve ayrımc
 ![canvas_general-inspo--sources-240707_1752](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/b795e3e1-8fd2-4caa-b288-4f3e2dbe1489) </br>
 
 * Toplantı ve Sohbet Görselleri, Anketler: </br>
-![sprint1wp](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/f61e7347-9049-4d15-bd1a-ec963d3aed57) </br>
+![sprint1wp](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/de7bed66-e8f8-4fb3-b7bc-b38e5ef1aa1c)</br>
 ![image](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/6d653f16-1bda-44b5-bcd2-92bb123b15bd) </br>
 BU GEECE REVIEW SIRASINDA DISCORDD SSI ALMAYI UNUTÖMA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
