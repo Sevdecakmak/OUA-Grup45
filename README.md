@@ -2,7 +2,7 @@
 
 
 ## Takım Üyeleri
-- ***Serenat Varol***
+- ***Serenat Varol*** - Scrum Mastr
 - ***Rümeysa Sevde Çakmak***
 - ***Salih Karakuş*** 
 - ***Rıdvan Karasubaşı***
@@ -10,24 +10,26 @@
 
 
 ## Oyun İsmi
-OYUNISMI - OYUN ISMININ GELECEĞİ YERLER OYUNISMI YAZIYO OLUCAK DEĞİŞTİRMEYİ UNUTMA!!!!!!!!!!!!!!!
+Herald of Crows
+
 ## Product Backlog URL
 [Backlog](https://app.milanote.com/1Smtq11rAhAxej?p=GGTn82gsDdG) uygulaması olarak Milanote tercih edilmiştir.
 
 ## Oyun Açıklaması
-OYUNISMI üzerindeki bir lanet sebebiyle uğursuz olduğuna inanılan ve ayrımcılığa uğrayan bir karganın, çeşitli düşmanlar ve bulmacalar aracılığıyla kendini keşfetmesini konu alan bir macera oyundur.
+Herald of Crows üzerindeki bir lanet sebebiyle uğursuz olduğuna inanılan ve ayrımcılığa uğrayan bir karganın, çeşitli düşmanlar ve bulmacalar aracılığıyla kendini keşfetmesini konu alan, görsel stratejiye dayalı bir macera oyundur.
 
 ## Oyun Özellikleri
 - 3D
-- Multiplayer ??????????????????
+- Multiplayer ??? (Sprint 2 sürecinde tekrar değerlendirilecek)
 - Asset ve çevre tasarımında yapay zeka desteği
-- Gameanalytics, oyun içi veriler işlenmektedir ?????????????????
+- GameAnalytics, oyuncu verileri işlenmektedir ? (Sprint 2 sürecinde tekrar değerlendirilecek)
 
 ## Hedef Kitle
 - 👾Maceracı Oyuncular
 - 🖱️PC oyuncuları
 - 🥀Doğayla iç içe bir ortamda geçen oyunları sevenler
-- 🚸10+
+- 🐦‍⬛Hayvanseverler
+- 🚸7+
 - 🧩Bulmaca severler
 
 <details><summary><h2>Sprint 1</h2> </summary>
@@ -40,7 +42,7 @@ OYUNISMI üzerindeki bir lanet sebebiyle uğursuz olduğuna inanılan ve ayrımc
 
  
 * Backlog Görselleri: </br>
-![milaanote](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/9e673e2d-2dde-4cc3-83e1-0454819c08aa) </br>
+![milanote](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/62e64f83-c818-41fe-b9f4-672506308ac1) </br>
 ![canvas_level--area--scene-design-240707_1740](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/7ff81fab-7b23-49ad-ae4f-6ff2ee09e9d6) </br>
 ![canvas_general-inspo--sources-240707_1752](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/b795e3e1-8fd2-4caa-b288-4f3e2dbe1489) </br>
 
