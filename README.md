@@ -64,13 +64,20 @@ BU GEECE REVIEW SIRASINDA DISCORDD SSI ALMAYI UNUTÖMA!!!!!!!!!!!!!!!!!!!!!!!!!!
 ![crow](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/cbd39e6a-adee-4185-91ba-dd951cd6486b)
 
 * <h2>Sprint Review: </h2>
-     <li>lalsfsdf </li>
-     <li>sskjldfsjlljsfkd </li>
+     <li>Oyunun hikayesi belirlendi.</li>
+     <li>Oyun içi roadmap çıkarıldı. </li>
+     <li>Karakterlere ve oyunun temel temasına, çevre görünüşüne bulmacalara karar verildi.</li>
+     <li>Bulmaca sayısına ve oyuncunun bir karga olmasına karar verildi. Karganın hangi mekaniklere sahip olacağı tartışıldı.</li>
+     <li>Sprint Review katılımcıları: Serenat Varol, Salih Karakuş, Rümeysa Sevde Çakmak</li>
+     <li>Sprint 1 sürecinde iletişim yetersizliği sebebiyle sürecin yavaşladığı belirtildi, ilerleyen süreçte daha koordine bir takım çalışmasının gerekliliği konusunda hemfikir olundu.</li>
 
 * <h2>Sprint Retrospect: </h2>
-      <li>jdsfsldfj</li>
-
-iletişim azlığı sürecin yavaşlaması
+      <li>Takım içi roller ilk toplantıda belirlenmiştir.</li>
+      <li>Sprint içi ve sonraki sprintler üzerine roadmap çıkarıldı.</li>
+      <li>Tasarımla kodlama kısmı ikiye ayrılmış ve hem iş yüküne hem de kişisel yönelimlere dayalı görev dağılımına gidilmiştir.</li>
+      <li>Tasarım ve kodlama ayrı işlediğinden ötürü assetler ve animasyonlar bu Sprint içinde belli bir düzeyde tamamlanmıştır. Scriptlerle birleştirme işi Sprint 2'ye kalmıştır.</li>
+      <li>User Interface taslağı oluşturulmuştur.</li>
+     
   
 </details>
 
