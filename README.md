@@ -2,12 +2,11 @@
 
 
 ## Takım Üyeleri
-- ***Serenaat***
-- ***Sevde***
-- ***Semih*** 
-- ***Rıdvan***
-- ***Ömer Faruk*** 
- SOYAD EKLEMEYİ UNUTMA!!!!!!!!!!!!!
+- ***Serenat Varol***
+- ***Rümeysa Sevde Çakmak***
+- ***Salih Karakuş*** 
+- ***Rıdvan Karasubaşı***
+- ***Ömer Faruk Bingöl*** 
 
 
 ## Oyun İsmi
@@ -54,7 +53,9 @@ BU GEECE REVIEW SIRASINDA DISCORDD SSI ALMAYI UNUTÖMA!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 <h3 align="center"> <a href="https://sketchfab.com/3d-models/snake-attack-animations-multiple-83c4290cd4b648fd942d4bbc2280a3f6?utm_medium=embed&utm_campaign=share-popup&utm_content=83c4290cd4b648fd942d4bbc2280a3f6" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Snake Animations (Multiple) </a> </h3> </br>
 
-</tab> ![snake](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/3c8ce126-879a-4183-aed6-743dffd13567)
+
+<a align="center"> ![snake](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/3c8ce126-879a-4183-aed6-743dffd13567) </a>
+
 
 <h3 align="center"> <a href="https://sketchfab.com/models/e2e6d407b18547d2a9ed37a1707042e1/embed"> Crow Asset </a> </h3> </br>
 
