@@ -41,14 +41,34 @@ OYUNISMI üzerindeki bir lanet sebebiyle uğursuz olduğuna inanılan ve ayrımc
 
  
 * Backlog Görselleri: </br>
-* Toplantı ve Sohbet Görselleri: </br>
+![milaanote](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/9e673e2d-2dde-4cc3-83e1-0454819c08aa) </br>
+![canvas_level--area--scene-design-240707_1740](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/7ff81fab-7b23-49ad-ae4f-6ff2ee09e9d6) </br>
+![canvas_general-inspo--sources-240707_1752](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/b795e3e1-8fd2-4caa-b288-4f3e2dbe1489) </br>
+
+* Toplantı ve Sohbet Görselleri, Anketler: </br>
+![sprint1wp](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/f61e7347-9049-4d15-bd1a-ec963d3aed57) </br>
+![image](https://github.com/Sevdecakmak/OUA-Grup45/assets/53650879/6d653f16-1bda-44b5-bcd2-92bb123b15bd) </br>
+BU GEECE REVIEW SIRASINDA DISCORDD SSI ALMAYI UNUTÖMA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 * Seçilen / Tasarlanan bazı Assetler: </br>
 
-
-
-
+<h3 align="center"> <a href="https://sketchfab.com/3d-models/snake-attack-animations-multiple-83c4290cd4b648fd942d4bbc2280a3f6?utm_medium=embed&utm_campaign=share-popup&utm_content=83c4290cd4b648fd942d4bbc2280a3f6" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Snake attack Animations (Multiple) </a> </h3> </br>
 
 
 
   
 </details>
+
+<details><summary><h2>Sprint 2</h2></summary>
+
+Template olarak hazır, zamanı geldiğinde güncellenecek.
+
+</details>
+
+<details><summary><h2>Sprint 3</h2></summary>
+
+Template olarak hazır, zamanı geldiğinde güncellenecek.
+
+</details>
+
+
