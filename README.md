@@ -34,8 +34,14 @@ Herald of Crows üzerindeki bir lanet sebebiyle uğursuz olduğuna inanılan ve 
 
 <details><summary><h2>Sprint 1</h2> </summary>
 
-* Sprint içi puan değerlendirmesi 100 üzerinden belirlenmiştir. 4 Puan değerindeki Puzzle görevi tamamlanamadığından 96/100 puanla bitmiştir. Bonus olarak User Interface tasarlanmış ve Sprint 3'te olması gereken bir görevin yükü azaltılmıştır.
-* Projenin totalde 350 puan değerinde olması beklenmektedir.
+* <b>Puanlama Mantığı: </b> Sprint 1 görevlerinin puanlaması;
+      <li>görevlerin ne kadar mesai alacağı, </li>
+      <li>görevlerin kaç takım üyesini ilgilendirdiği, </li>
+      <li>görevlerin tamamen bitmesinin ne kadar zor olduğu,</li>
+      <li>görevlerin ne kadar esnekliğe açık olduğu veya risk içerdiği </li>
+kriterlerine göre belirlenmiştir. Mavi renkle üzeri çizili görevlerin bitirilmesi, diğer görevlere başlanabilmesi için elzemdir.
+* Sprint içi puan değerlendirmesi 100 üzerinden belirlenmiştir. Tüm görevler Milanote'ta bir yapılacaklar listesi şeklinde tutulmuş ve spesifik üyelerin görevleri kendilerine atanmıştır. Sprint 1 görevlerinin hepsi tamamlanarak 100/100 puanla bitmiştir. Bonus olarak User Interface tasarlanmış ve Sprint 3'te olacak bir görevin yükü azaltılmıştır.
+* Projenin totalde 350 puan değerinde olması, Sprint 3'ün çıkabilecek sorunlardan ötürü en yüksek puana sahip olması beklenmektedir.
 * Sprint 1 süreci bütün takım üyelerinin en az mesai ayırabileceği dönem olduğundan mümkün olduğunca tasarıma, kaynak toplamaya ve herkesin ayrı ayrı çalışmasına karar verilmiştir. Tamamlanan görevler backlog ve iletişim kanallarıyla haberleşilmiş ancak bir araya getirilip temizlik açısından Github repository'sine eklenmemiştir. Ana projeye merge işlemleri bütün takım üyelerinin toplantılarda vereceği kararlarla Sprint 2 sürecinde gerçekleştirilecektir.
 * <b>Daily Scrum: </b> Günlük konuşmalar ve anketler Whatsapp üzerinden gerçekleştirilirken toplantılar için fonksiyonabilitesi sebebiyle Discord tercih edilmiştir.
 * Toplantılara katılım sağlayamamış üyelerin geri kalmaması açısından kısa görüşme özetleri içeren [ortak bir döküman](https://docs.google.com/document/d/1Ae8FYZowJhssbUb1zqXL1aqo0bAXkMyHa2stOofVKuo/edit?usp=sharing) hazırlanmıştır.
