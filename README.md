@@ -92,7 +92,7 @@ kriterlerine göre belirlenmiştir. Mavi renkle üzeri çizili görevlerin bitir
 
 <details><summary><h2>Sprint 2</h2></summary>
 
-Template olarak hazır, zamanı geldiğinde güncellenecek.
+* Sprint içi puan değerlendirmesi Sprint 1'deki gibi 100 üzerinden belirlenmiştir. Bazı opsiyonel veya Sprint3'e bırakılması kararlaştırılan görevler de görev listesine eklendi. Birkaç bonus görev belirlendi, bu görevler zorunlu olmayan veya Sprint 2 süreci içerisinde bir deadline'a sahip olmayan içeriklerden oluşuyordu. Görevler yine backlogda yapılacaklar listesi şeklinde tutulmuş, tamamlanan görevler işaretlenmiş ve spesifik üyelerin görevleri kendilerine atanmıştır. Sprint 2 görevlerinin hepsi tamamlanarak 100/100 puanla bitmiştir. 
 
 </details>
 
