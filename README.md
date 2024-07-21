@@ -2,8 +2,8 @@
 
 
 ## Takım Üyeleri
-- ***Serenat Varol*** - Scrum Master / Asset Designer
-- ***Sevde Rukiye Çakmak*** - Product Owner / Developer
+- ***Serenat Varol*** - Scrum Master / Product Owner / Designer
+- ***Sevde Rukiye Çakmak*** - Developer
 - ***Salih Karakuş*** - Developer / Environmental Designer
 - ***Rıdvan Karasubaşı*** - Developer
 - ***Ömer Faruk Bingöl*** - Developer
