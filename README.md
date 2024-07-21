@@ -3,7 +3,7 @@
 
 ## Takım Üyeleri
 - ***Serenat Varol*** - Scrum Master / Asset Designer
-- ***Rümeysa Sevde Çakmak*** - Product Owner / Developer
+- ***Sevde Rukiye Çakmak*** - Product Owner / Developer
 - ***Salih Karakuş*** - Developer / Environmental Designer
 - ***Rıdvan Karasubaşı*** - Developer
 - ***Ömer Faruk Bingöl*** - Developer
@@ -109,9 +109,9 @@ kriterlerine göre belirlenmiştir. Mavi renkle üzeri çizili görevlerin bitir
 ![canvas_environment-assets--vfx-240721_1535](https://github.com/user-attachments/assets/92e5a199-dde6-4744-867b-c2363975cf10) </br>
 ![canvas_storylines-interactions-mission-tree-240721_1604](https://github.com/user-attachments/assets/2b60fb70-3a9f-4ab5-b48f-54557703d6a8)</br>
 ![canvas_level--area--scene-design-240721_1603](https://github.com/user-attachments/assets/62a2d75e-3bd4-4bcf-b5da-0404cf7b8180)</br>
+![canvas_oua-45-240721_2002](https://github.com/user-attachments/assets/b8116a05-1d18-41ba-81de-5e2fc302ce5d) </br>
 
-
-BURAYA TOPLANTIDDAN SONRA GÖREVLERİN DE OLDUĞU ANA EEKRANI EEKLEE UNUTMAAAAAAAAAAAA!!!!!!!!!!!!!!!!      
+ 
 
 > Sprint içerikleri renk kodlarıyla ayrılacaktır. Sprint 2 pembe başlıklı görevleri içermektedir. Ayrıyeten bonus görevler ve tartışılacaklar highlightlanmıştır. </br>
 
@@ -126,6 +126,23 @@ BURAYA TOPLANTIDDAN SONRA GÖREVLERİN DE OLDUĞU ANA EEKRANI EEKLEE UNUTMAAAAAA
 
 ![image](https://github.com/user-attachments/assets/7953b423-388d-400b-ac46-0a2626552e25)</br>
 
+
+* <h2>Sprint 2 Review: </h2>
+     <li>Bulmacalar ve oyun mekanikleri belirlendi.</li>
+     <li>Sprint'e özel roadmap çıkarıldı. </li>
+     <li>Haritanın kaç bölge olacağı belirlendi, en kapsamlı bölge tasarlandı.</li>
+     <li>Sprint Review katılımcıları: Serenat Varol
+     <li>Sprint 2 boyunca zaman yetersizliği sebebiyle süreç çok stresli geçti, görevleri bitirebilmek tüm takımı zorladı. Sprint 3'ün daha ağır geçecek olması sebebiyle görevlere spesifik deadlinelar atanıp bütün görevlerin son ana yığılmasına karar verildi.</li>
+     <li>Sprint 1'de yazılan rapordaki bir üyenin ismindeki yazım yanlışı düzeltildi.</li>
+      <li>Takım içi rollerde değişime gidildi. (Product Owner: Serenat Varol) </li>
+      
+* <h2>Sprint 2 Retrospect: </h2>
+      <li>Bulmacalar için Product Owner takıma birçok seçenek sundu, hikayeye en uygun olanlar veya tasarımı hoşumuza gidenler ilham kaynağı olarak seçildi. Farklı oyunlar ve hatta gerçek hayattan yaptığımız gözlemleri kendi oyunumuza uyarladı.</li>
+      <li>Sprint içi ve sonraki sprintler üzerine roadmap çıkarıldı.</li>
+      <li>Bu sprintte de hem iş yüküne hem de kişisel yönelimlere dayalı görev dağılımına gidilmiştir.</li>
+      <li>Bulmacalar kodlama grubu üyelerine bölüştürülmüştür. Tasarım grubu ise beraber asset araştırmış ve haritanın belli bir kısmını tasarlamıştır. Her şey Sprint 3'te bir araya gelecektir.</li>
+      <li>Senaryolar, interaksiyonlar, algoritmalar ve replikler yazılmıştır.</li>
+      <li>Oyuncuyu yönlendirmek adına Oyun İçi Görev Ağacı olmasına ve bu ağaçta sırayla hangi görevlerin olacağına karar verilmiştir.</li>
 
 </details>
 
