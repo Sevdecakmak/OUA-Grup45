@@ -103,7 +103,7 @@ kriterlerine göre belirlenmiştir. Mavi renkle üzeri çizili görevlerin bitir
 
 
 
-*Backlog Görselleri: </br>
+* <h2> Backlog Görselleri: </h2> </br>
 ![canvas_environment-assets--vfx-240721_1535](https://github.com/user-attachments/assets/92e5a199-dde6-4744-867b-c2363975cf10) </br>
 ![canvas_storylines-interactions-mission-tree-240721_1604](https://github.com/user-attachments/assets/2b60fb70-3a9f-4ab5-b48f-54557703d6a8)</br>
 ![canvas_level--area--scene-design-240721_1603](https://github.com/user-attachments/assets/62a2d75e-3bd4-4bcf-b5da-0404cf7b8180)</br>
@@ -113,12 +113,12 @@ BURAYA TOPLANTIDDAN SONRA GÖREVLERİN DE OLDUĞU ANA EEKRANI EEKLEE UNUTMAAAAAA
 
 > Sprint içerikleri renk kodlarıyla ayrılacaktır. Sprint 2 pembe başlıklı görevleri içermektedir. Ayrıyeten bonus görevler ve tartışılacaklar highlightlanmıştır. </br>
 
-* Toplantı ve Sohbet Görselleri, Anketler: </br>
+* <h2> Toplantı ve Sohbet Görselleri, Anketler: </h2> </br>
 
 ![Ekran görüntüsü 2024-07-21 183057](https://github.com/user-attachments/assets/45e98dbe-5dc6-4033-a7b3-bd60b62c6fd8)</br>
 
 
-*Ürün Durumu: </br>
+* <h2> Ürün Durumu: </h2> </br>
 
 ![Ekran görüntüsü 2024-07-18 043445](https://github.com/user-attachments/assets/91a5b070-f660-4f73-8263-445a2613674f)</br>
 
