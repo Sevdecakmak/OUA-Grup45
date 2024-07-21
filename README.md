@@ -19,7 +19,7 @@ Herald of Crows
 Herald of Crows üzerindeki bir lanet sebebiyle uğursuz olduğuna inanılan ve ayrımcılığa uğrayan bir karganın, çeşitli düşmanlar ve bulmacalar aracılığıyla kendini keşfetmesini konu alan, görsel stratejiye dayalı bir macera oyundur.
 
 ## Oyun Özellikleri
-- 3D
+- 3D & 2D
 - Multiplayer ??? (Sprint 2 sürecinde tekrar değerlendirilecek)
 - Asset ve çevre tasarımında yapay zeka desteği
 - GameAnalytics, oyuncu verileri işlenmektedir ? (Sprint 2 sürecinde tekrar değerlendirilecek)
@@ -94,9 +94,36 @@ kriterlerine göre belirlenmiştir. Mavi renkle üzeri çizili görevlerin bitir
 
 * <b> Sprint içi puan değerlendirmesi </b> Sprint 1'deki gibi 100 üzerinden belirlenmiştir. Bazı opsiyonel veya Sprint 3'e bırakılması kararlaştırılan görevler de görev listesine eklenmiştir. Birkaç bonus görev belirlenmiştir, bu görevler zorunlu olmayan veya Sprint 2 süreci içerisinde bir deadline'a sahip olmayan içeriklerden oluşmaktadır. Görevler yine backlogda yapılacaklar listesi şeklinde tutulmuş, tamamlanan görevler işaretlenmiş ve spesifik üyelerin görevleri kendilerine atanmıştır. Sprint 2 görevlerinin hepsi tamamlanarak 100/100 puanla bitmiştir. 
 
-* Sprint 2 süreci bulmacalar ve oyun mekaniklerine odaklı geçmiştir. Bulmaca bölümlerinin kaçar Unity Sahnesine sahip olacağı, 3D veya 2D içerikler ve hangi bulmacaların kesinlikle ekleneceği, hangilerinin zaman ve kaynak miktarına göre eklenmese de olacağına karar verilmiştir. Bulmaca görevleri ilgi alanları ve mesai sürelerine göre üyeler arasında paylaştırılmıştır. Bulmaca dışındaki görevler de bulmacalarla uğraşmayacak üyeler arasında mümkün olduğunca dengeli bir şekilde paylaştırılmıştır. Tasarımla ilgilenen üyeler bulmaca yapanlarla beraber çalışmış, daily scrum'la sürekli bir feedback sağlanmıştır.
+* Sprint 2 süreci bulmacalar ve oyun mekaniklerine odaklı geçmiştir. Bulmaca bölümlerinin kaçar Unity Sahnesine sahip olacağı, 3D veya 2D içerikler ve hangi bulmacaların kesinlikle ekleneceği, hangilerinin zaman ve kaynak miktarına göre eklenmese de olacağına karar verilmiştir. Bulmaca görevleri ilgi alanları ve mesai sürelerine göre üyeler arasında paylaştırılmıştır. Bulmaca dışındaki görevler bulmacalarla uğraşmayacak üyeler arasında mümkün olduğunca dengeli bir şekilde paylaştırılmıştır. Tasarımla ilgilenen üyeler bulmaca yapanlarla beraber çalışmış, gerekli bazı assetler çizilmiş ve daily scrum'la sürekli bir feedback sağlanmıştır.
+* Tamamlanan görevlerin bir kısmı üyelerin branchlerine pushlanmıştır. En son main branchte bir araya getirme işleminin sakıncasız olması açısından takım üyelerinin gözetimi altında canlı şekilde Sprint 3'te gerçekleştirilmesi planlanmaktadır.
   
 * <b>Daily Scrum: </b> Günlük konuşmalar ve anketler Whatsapp üzerinden gerçekleştirilirken toplantılar için fonksiyonabilitesi sebebiyle Discord tercih edilmiştir.
+
+* Toplantılara katılım sağlayamamış üyelerin geri kalmaması açısından kısa görüşme özetleri içeren [döküman](https://docs.google.com/document/d/1Ae8FYZowJhssbUb1zqXL1aqo0bAXkMyHa2stOofVKuo/edit?usp=sharing) bu toplantıda da güncellenmiştir.
+
+
+
+*Backlog Görselleri: </br>
+![canvas_environment-assets--vfx-240721_1535](https://github.com/user-attachments/assets/92e5a199-dde6-4744-867b-c2363975cf10) </br>
+![canvas_storylines-interactions-mission-tree-240721_1604](https://github.com/user-attachments/assets/2b60fb70-3a9f-4ab5-b48f-54557703d6a8)</br>
+![canvas_level--area--scene-design-240721_1603](https://github.com/user-attachments/assets/62a2d75e-3bd4-4bcf-b5da-0404cf7b8180)</br>
+
+
+BURAYA TOPLANTIDDAN SONRA GÖREVLERİN DE OLDUĞU ANA EEKRANI EEKLEE UNUTMAAAAAAAAAAAA!!!!!!!!!!!!!!!!      
+
+> Sprint içerikleri renk kodlarıyla ayrılacaktır. Sprint 2 pembe başlıklı görevleri içermektedir. Ayrıyeten bonus görevler ve tartışılacaklar highlightlanmıştır. </br>
+
+* Toplantı ve Sohbet Görselleri, Anketler: </br>
+
+![Ekran görüntüsü 2024-07-21 183057](https://github.com/user-attachments/assets/45e98dbe-5dc6-4033-a7b3-bd60b62c6fd8)</br>
+
+
+*Ürün Durumu: </br>
+
+![Ekran görüntüsü 2024-07-18 043445](https://github.com/user-attachments/assets/91a5b070-f660-4f73-8263-445a2613674f)</br>
+
+![image](https://github.com/user-attachments/assets/7953b423-388d-400b-ac46-0a2626552e25)</br>
+
 
 </details>
 
