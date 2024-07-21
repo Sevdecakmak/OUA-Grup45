@@ -20,9 +20,9 @@ Herald of Crows üzerindeki bir lanet sebebiyle uğursuz olduğuna inanılan ve 
 
 ## Oyun Özellikleri
 - 3D & 2D
-- Multiplayer ??? (Sprint 2 sürecinde tekrar değerlendirilecek)
+- Multiplayer ??? (Sprint 3 sürecinde tekrar değerlendirilecek)
 - Asset ve çevre tasarımında yapay zeka desteği
-- GameAnalytics, oyuncu verileri işlenmektedir ? (Sprint 2 sürecinde tekrar değerlendirilecek)
+- GameAnalytics, oyuncu verileri işlenmektedir ? (Sprint 3 sürecinde tekrar değerlendirilecek)
 
 ## Hedef Kitle
 - 👾Maceracı Oyuncular
