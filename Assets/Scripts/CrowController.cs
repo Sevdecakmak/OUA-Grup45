@@ -9,6 +9,7 @@ public class CrowController : MonoBehaviour
 
     void Update()
     {
+
         // Kargayı yatayda ve dikeyde hareket ettirmek için
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
