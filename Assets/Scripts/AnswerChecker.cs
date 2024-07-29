@@ -39,6 +39,7 @@ public class AnswerChecker : MonoBehaviour
         {
             if (question.answerImage.sprite == question.correctAnswer)
             {
+				
                 question.crossImageTik.gameObject.SetActive(true); // Cevap doðruysa çarpý iþaretini gizle
                 question.crossImageCarpi.gameObject.SetActive(false);
             }
