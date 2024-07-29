@@ -14,6 +14,7 @@ public class EmojiChanger : MonoBehaviour, IPointerClickHandler
         if (possibleAnswers.Length > 0)
         {
             answerImage.sprite = possibleAnswers[currentAnswerIndex];
+			
         }
     }
 
