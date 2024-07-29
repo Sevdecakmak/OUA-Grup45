@@ -24,6 +24,7 @@ public class AnswerChecker : MonoBehaviour
     void Start()
     {
         checkButton.onClick.AddListener(CheckAnswers);
+		
         foreach (var question in questions)
         {
             question.crossImageTik.gameObject.SetActive(false); // Baþlangýçta çarpý iþaretlerini gizle
