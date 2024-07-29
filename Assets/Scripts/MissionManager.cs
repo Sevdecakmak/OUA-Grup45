@@ -17,6 +17,7 @@ public class MissionManager : MonoBehaviour
     [System.Serializable]
     public struct Mission
     {
+		
         public string mission_name;
         public bool is_completed;
 
