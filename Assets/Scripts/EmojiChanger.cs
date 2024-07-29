@@ -1,11 +1,11 @@
-ï»¿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class emoji_changer : MonoBehaviour, IPointerClickHandler
+public class EmojiChanger : MonoBehaviour, IPointerClickHandler
 {
     public Image answerImage;
-    public Sprite[] possibleAnswers; // FarklÄ± emoji gÃ¶rselleriniz
+    public Sprite[] possibleAnswers; // Farklý emoji görselleriniz
 
     private int currentAnswerIndex = 0;
 

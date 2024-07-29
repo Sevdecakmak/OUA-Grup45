@@ -1,8 +1,9 @@
-ï»¿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
-
-public class answer_checker : MonoBehaviour
+public class AnswerChecker : MonoBehaviour
 {
+    public int mission_counter;
+
     [System.Serializable]
     public struct Question
     {
@@ -25,7 +26,7 @@ public class answer_checker : MonoBehaviour
         checkButton.onClick.AddListener(CheckAnswers);
         foreach (var question in questions)
         {
-            question.crossImageTik.gameObject.SetActive(false); // BaÅŸlangÄ±Ã§ta Ã§arpÄ± iÅŸaretlerini gizle
+            question.crossImageTik.gameObject.SetActive(false); // Baþlangýçta çarpý iþaretlerini gizle
             question.crossImageCarpi.gameObject.SetActive(false);
         }
     }
@@ -37,19 +38,23 @@ public class answer_checker : MonoBehaviour
         {
             if (question.answerImage.sprite == question.correctAnswer)
             {
-                question.crossImageTik.gameObject.SetActive(true); // Cevap doÄŸruysa Ã§arpÄ± iÅŸaretini gizle
+                question.crossImageTik.gameObject.SetActive(true); // Cevap doðruysa çarpý iþaretini gizle
                 question.crossImageCarpi.gameObject.SetActive(false);
             }
             else
             {
-                question.crossImageCarpi.gameObject.SetActive(true); // Cevap yanlÄ±ÅŸsa Ã§arpÄ± iÅŸaretini gÃ¶ster
+                question.crossImageCarpi.gameObject.SetActive(true); // Cevap yanlýþsa çarpý iþaretini göster
                 question.crossImageTik.gameObject.SetActive(false);
                 allCorrect = false;
             }
         }
 
         if (allCorrect)
-            Debug.Log("Hepsi DoÄŸru!");
+        {
+            Debug.Log("Hepsi Doðru!");
+            mission_counter++;
+        }
+
         else
             Debug.Log("Hata var!");
     }
