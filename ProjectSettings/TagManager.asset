@@ -7,6 +7,7 @@ TagManager:
   - PuzzlePiece
   - Draggable
   - Plane
+  - Pickup
   - Ground
   layers:
   - Default
@@ -16,6 +17,7 @@ TagManager:
   - Water
   - UI
   - Player
+  - Object
   - Ground
   - 
   - 
