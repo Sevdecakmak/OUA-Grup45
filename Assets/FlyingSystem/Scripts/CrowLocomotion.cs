@@ -46,6 +46,7 @@ public class CrowLocomotion : MonoBehaviour
         crowRigidBody = GetComponent<Rigidbody>();
 
         cameraObject = Camera.main.transform;
+
     }
 
     public void HandleAllMovements()
@@ -56,6 +57,8 @@ public class CrowLocomotion : MonoBehaviour
 
         HandleMovement();
         HandleRotation();
+        if (isFlying)
+            HandleFlying();
     }
 
     private void HandleMovement()
@@ -110,6 +113,10 @@ public class CrowLocomotion : MonoBehaviour
         }
 
         var targetRotation = Quaternion.LookRotation(targetDirection);
+
+        // Karganın ileriye bakmasını sağlamak için yazdım fakat karga kendi etrafında sürekli dönüyor.
+        targetRotation = Quaternion.Euler(targetRotation.eulerAngles.x, targetRotation.eulerAngles.y + 90, targetRotation.eulerAngles.z);
+
         var crowRotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
 
         transform.rotation = crowRotation;
@@ -149,7 +156,6 @@ public class CrowLocomotion : MonoBehaviour
             isGrounded = false;
         }
 
-
     }
     public void HandleJumping()
     {
@@ -177,47 +183,22 @@ public class CrowLocomotion : MonoBehaviour
     }
     public void HandleFlying()
     {
-        Debug.Log("Flying");
+        Debug.Log("Flying: " + isFlying);
 
-        // animatorManager.animator.SetBool("isFlying", true);
+        Vector3 flyDirection = cameraObject.forward * inputManager.verticalInput;
+        flyDirection += cameraObject.right * inputManager.horizontalInput;
+        flyDirection.Normalize();
+        flyDirection.y = 1; // Yukarı doğru uçma
 
-        if (inputManager.fly_Input && !isFlying && isGrounded)
-        {
-            isFlying = true;
-            isGrounded = false;
+        float currentFlyingSpeed = flyingSpeed;
 
-            animatorManager.PlayTargetAnimation("Fly", true);
-        }
+        // Karganın uçma hareketi
+        crowRigidBody.velocity = flyDirection * currentFlyingSpeed;
 
-        if (isFlying)
-        {
-            Vector3 flyDirection = cameraObject.forward * inputManager.verticalInput;
-            flyDirection += cameraObject.right * inputManager.horizontalInput;
-            flyDirection.Normalize();
-
-            // Yükseklik kontrolü
-            if (inputManager.fly_Input)
-            {
-                flyDirection.y = 1; // Yukarı doğru uçma
-            }
-            else
-            {
-                flyDirection.y = 0; // Y ekseni hareketi durdur
-            }
-
-            float currentFlyingSpeed = flyingSpeed; // Bu değeri istediğiniz gibi ayarlayabilirsiniz
-
-            // Karganın uçma hareketi
-            crowRigidBody.velocity = flyDirection * currentFlyingSpeed;
-        }
-
-        if (!inputManager.fly_Input && isFlying)
-        {
-            // Karga uçmayı durduruyor
-            isFlying = false;
-            // Karganın yere düşmesini sağlar
-            crowRigidBody.velocity = new Vector3(crowRigidBody.velocity.x, -fallingVelocity, crowRigidBody.velocity.z);
-        }
+    }
+    private void HandleGliding()
+    {
+        Debug.Log("Gliding");
 
     }
 }

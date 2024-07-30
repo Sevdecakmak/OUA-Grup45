@@ -29,18 +29,18 @@ public class InputManager : MonoBehaviour
 
     public delegate void EscapeAction();
     public static event EscapeAction OnEscape;
-    private void Awake() 
+    private void Awake()
     {
         animatorManager = GetComponent<AnimatorManager>();
         crowController = GetComponent<CrowLocomotion>();
     }
 
-    private void OnEnable() 
+    private void OnEnable()
     {
-        if(crowControls == null)
+        if (crowControls == null)
         {
             crowControls = new CrowControls();
-            
+
             // Buradaki Movement ve Camera aksiyonları pass through olduğu için değerlerini alabiliyoruz.
             crowControls.CrowMovement.Movement.performed += i => movementInput = i.ReadValue<Vector2>();
             crowControls.CrowMovement.Camera.performed += i => cameraInput = i.ReadValue<Vector2>();
@@ -60,13 +60,14 @@ public class InputManager : MonoBehaviour
             crowControls.CrowActions.X.performed += i => x_Input = true;
 
             // Uçma işlemi için fly_Input true olacak.
-            crowControls.CrowActions.Fly.performed += i => fly_Input = true;
-            crowControls.CrowActions.Fly.canceled += i => fly_Input = false;
+            crowControls.CrowActions.Fly.started += i => OnFlyStarted(i);
+            crowControls.CrowActions.Fly.performed += i => OnFlyPerformed(i);
+            crowControls.CrowActions.Fly.canceled += i => OnFlyCanceled(i);
         }
         crowControls.Enable();
     }
 
-    private void OnDisable() 
+    private void OnDisable()
     {
         crowControls.Disable();
     }
@@ -93,7 +94,7 @@ public class InputManager : MonoBehaviour
     }
     private void HandleSprintingInput()
     {
-        if(b_Input && moveAmount > 0.5f)
+        if (b_Input && moveAmount > 0.5f)
         {
             crowController.isSprinting = true;
         }
@@ -105,7 +106,7 @@ public class InputManager : MonoBehaviour
 
     private void HandleJumpingInput()
     {
-        if(jump_Input)
+        if (jump_Input)
         {
             jump_Input = false;
             crowController.HandleJumping();
@@ -113,7 +114,7 @@ public class InputManager : MonoBehaviour
     }
     private void HandleDodgeInput()
     {
-        if(x_Input)
+        if (x_Input)
         {
             x_Input = false;
             crowController.HandleDodge();
@@ -124,8 +125,28 @@ public class InputManager : MonoBehaviour
     {
         if(fly_Input)
         {
-            crowController.HandleFlying(); // Uçma işlemi için yeni bir metod eklenmeli
+            crowController.isFlying = true;
         }
+        else
+        {
+            crowController.isFlying = false;
+        }
+    }
+
+    private void OnFlyStarted(InputAction.CallbackContext context)
+    {
+        Debug.Log("Fly started");
+        fly_Input = true;
+    }
+    private void OnFlyPerformed(InputAction.CallbackContext context)
+    {
+        Debug.Log("Fly performed");
+        fly_Input = true;
+    }
+    private void OnFlyCanceled(InputAction.CallbackContext context)
+    {
+        Debug.Log("Fly canceled");
+        fly_Input = false;
     }
 
     private void OnClickPerformed(InputAction.CallbackContext context)

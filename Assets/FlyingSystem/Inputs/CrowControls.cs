@@ -183,7 +183,7 @@ public partial class @CrowControls: IInputActionCollection2, IDisposable
                     ""id"": ""4db53e52-a54d-469d-acf0-2884837153da"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Hold"",
                     ""initialStateCheck"": false
                 }
             ],
@@ -224,7 +224,7 @@ public partial class @CrowControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""46c47215-4765-45e4-a187-b8c379907314"",
-                    ""path"": ""<Keyboard>/space"",
+                    ""path"": ""<Keyboard>/c"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
