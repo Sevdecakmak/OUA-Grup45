@@ -461,6 +461,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.01492657
       objectReference: {fileID: 0}
+    - target: {fileID: 8686189830044010478, guid: 9dc1f3e09b8acee4a9e73f7edc44afee, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.012446
+      objectReference: {fileID: 0}
     - target: {fileID: 8797116274987588576, guid: 9dc1f3e09b8acee4a9e73f7edc44afee, type: 3}
       propertyPath: m_Name
       value: _19 (Rclaw)
