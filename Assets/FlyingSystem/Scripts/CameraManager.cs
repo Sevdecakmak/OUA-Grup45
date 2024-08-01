@@ -17,8 +17,8 @@ public class CameraManager : MonoBehaviour
     public float minimumCollisionOffSet = 0.2f; // Kameranın minimum çarpışma ofseti
     public float cameraCollisionRadius = 2f; // Kameranın çarpışma yarıçapı
     public float cameraFollowSpeed = 0.2f; // Kameranın takip hızı
-    public float cameraLookSpeed = 2f;     // Kameranın bakış hızı
-    public float cameraPivotSpeed = 2f;    // Kameranın pivot hızı
+    public float cameraLookSpeed = 0.2f;     // Kameranın bakış hızı
+    public float cameraPivotSpeed = 0.2f;    // Kameranın pivot hızı
 
     public float lookAngle;             // Kameranın dikey bakış açısı (Yukarı, Aşağı)
     public float pivotAngle;            // Kameranın yatay bakış açısı (Sağa, Sola)
@@ -33,13 +33,13 @@ public class CameraManager : MonoBehaviour
         cameraTransform = Camera.main.transform;
         defaultPosition = cameraTransform.localPosition.z;
         
-        InputManager.OnMouseLeftClick += CursorLock;
+        InputManager.OnMouseRightClick += CursorLock;
         InputManager.OnEscape += CursorUnlock;
 
     }
     private void OnDestroy() 
     {
-        InputManager.OnMouseLeftClick -= CursorLock;
+        InputManager.OnMouseRightClick -= CursorLock;
         InputManager.OnEscape -= CursorUnlock;
     }
     public void HandleAllCameraMovement()
