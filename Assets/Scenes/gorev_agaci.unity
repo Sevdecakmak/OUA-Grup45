@@ -432,15 +432,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   missions:
-  - mission_name: "Tap\u0131na\u011F\u0131 bul"
+  - mission_name: Find the temple
     is_completed: 0
     crossImageTik: {fileID: 0}
     crossImageCarpi: {fileID: 0}
-  - mission_name: "Tap\u0131na\u011F\u0131 ke\u015Ffet"
+  - mission_name: Explore the temle
     is_completed: 0
     crossImageTik: {fileID: 0}
     crossImageCarpi: {fileID: 0}
-  - mission_name: "Odalar\u0131 gez 0/5"
+  - mission_name: Explore the rooms 0/5
     is_completed: 0
     crossImageTik: {fileID: 0}
     crossImageCarpi: {fileID: 0}

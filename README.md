@@ -1,9 +1,10 @@
 <h1 align="center"> U-45 Unity Takımı Readme & Sprint Review </h1>
 
+![logo](https://github.com/user-attachments/assets/f2a10df9-764f-43dd-a61e-f02d993ad7b6)
 
 ## Takım Üyeleri
 - ***Serenat Varol*** - Scrum Master / Product Owner / Designer
-- ***Sevde Rukiye Çakmak*** - Developer
+- ***Sevde Rukiye Çakmak*** - Developer / Puzzle Designer
 - ***Salih Karakuş*** - Developer / Environmental Designer
 - ***Rıdvan Karasubaşı*** - Developer
 - ***Ömer Faruk Bingöl*** - Developer
@@ -20,9 +21,7 @@ Herald of Crows üzerindeki bir lanet sebebiyle uğursuz olduğuna inanılan ve 
 
 ## Oyun Özellikleri
 - 3D & 2D
-- Multiplayer ??? (Sprint 3 sürecinde tekrar değerlendirilecek)
 - Asset ve çevre tasarımında yapay zeka desteği
-- GameAnalytics, oyuncu verileri işlenmektedir ? (Sprint 3 sürecinde tekrar değerlendirilecek)
 
 ## Hedef Kitle
 - 👾Maceracı Oyuncular
@@ -129,10 +128,9 @@ kriterlerine göre belirlenmiştir. Mavi renkle üzeri çizili görevlerin bitir
 
 * <h2>Sprint 2 Review: </h2>
      <li>Bulmacalar ve oyun mekanikleri belirlendi.</li>
-     <li>Sprint'e özel roadmap çıkarıldı. </li>
-     <li>Haritanın kaç bölge olacağı belirlendi, en kapsamlı bölge tasarlandı.</li>
+     <li>Haritanın kaç bölge olacağı belirlendi, en kapsamlı bölgeler tasarlandı.</li>
      <li>Sprint Review katılımcıları: Serenat Varol
-     <li>Sprint 2 boyunca zaman yetersizliği sebebiyle süreç çok stresli geçti, görevleri bitirebilmek tüm takımı zorladı. Sprint 3'ün daha ağır geçecek olması sebebiyle görevlere spesifik deadlinelar atanıp bütün görevlerin son ana yığılmasına karar verildi.</li>
+     <li>Sprint 2 boyunca zaman yetersizliği sebebiyle süreç çok stresli geçti, görevleri bitirebilmek tüm takımı zorladı. Sprint 3'ün daha ağır geçecek olması sebebiyle görevlere spesifik deadlinelar atanıp bütün görevlerin son ana yığılmamasına karar verildi.</li>
      <li>Sprint 1'de yazılan rapordaki bir üyenin ismindeki yazım yanlışı düzeltildi.</li>
       <li>Takım içi rollerde değişime gidildi. (Product Owner: Serenat Varol) </li>
       
@@ -148,7 +146,56 @@ kriterlerine göre belirlenmiştir. Mavi renkle üzeri çizili görevlerin bitir
 
 <details><summary><h2>Sprint 3</h2></summary>
 
-Template olarak hazır, zamanı geldiğinde güncellenecek.
+* <b> Sprint içi puan değerlendirmesi </b> 150 puan üzerinden belirlenmiştir.  Görevler backlogda yapılacaklar listesi şeklinde tutulmuş, tamamlanan görevler işaretlenmiş ve spesifik üyelerin görevleri kendilerine atanmıştır. Sprint 3 150/150 tam puanla bitirilmiştir, ancak projeyi kapatma sürecinde olası problemlere bakmak için fazlaca zaman ayrılması mümkün olmamıştır. Proje her ne kadar hatasız çalışmakta olsa ve elzem denemeler tamamlanmış olsa da scrum master daha kapsamlı bir test süreci planlamış ve bu planlamanın gerisinde kalınmıştır. 
+
+* <b> Sprint Notu: </b> Sprint 3 süreci oyun mekanikleri, animasyonlar, bulmacalar, çevre tasarımları, cutsceneler ve özellikle efeklerin implementasyonuna, bugfixlere ve build almaya odaklanmıştır. Sahne geçişleri ve cutsceneler Sprint 1'de çıkarılan roadmap'e uygun şekilde ayarlanmış, sahnelerin indexleri düzenlenmiştir. Bu Sprint'te görevler geçmiş sprintlerin aksine ilgi alanlarına değil yetenek ve ayırılabilecek mesai sürelerine göre paylaştırılmış, zorlanılan hataların üstesinden imeceyle gelinmiştir. Takım üyelerinin büyük bir çoğunluğu Sprint sonuna yaklaşıncaya kadar minimal mesai harcamıştır. 
+* Bu süreçte araştırma ve implemetasyon baş başa ilerlemiştir. Sprint 2'de sözel, yazısal veya görsel olarak tasarlanan bazı alternatiflerin denenmesi ve bazılarının takım tarafından daha çok beğenilmesi veya daha az sorun çıkarması sebepleriyle seçilmesi sonucu oyunda genel bir süreklilikten ziyade oyuncu memnuniyeti göz önünde bulundurulmuştur. Son dakika hatalarına karşılık dinamik çözüm yöntemleri geliştirilmiş, Discord sunucusu toplu beyin fırtınalarına ev sahipliği yapmıştır.
+* Toplamda 5 defa projenin çeşitli kısımlarında veri kaybı yaşanmış, bu veri kayıplarının 4ü teknik arızalar gibi öngörülemez sebeplerden gerçekleşmiş, 1i ise koordinasyon ve iletişim eksikliği kaynaklıdır. Veri kayıplarının tamamı bazı görevleri sıfırdan yapma pahasına telafi edilmiştir.
+* Tamamlanan görevlerin bir kısmı üyelerin branchlerine pushlanmıştır. En son main branchte bir araya getirme işleminin sakıncasız olması açısından takım üyelerinin gözetimi altında canlı şekilde Sprint 3'te gerçekleştirilmesi planlanmaktadır.
+* UI / UX, VFX, SFX ve müzikler, bulmacalar, kombatlar, animasyonlar, bazı scriptler ve kontroller, bütün sahnelerin ve bölümlerin birleştirilmesi ve bugfixing bu Sprint'in görev ağacını kısaca özetlemektedir.
+  
+* <b>Daily Scrum: </b> Günlük konuşmalar ve anketler Whatsapp üzerinden gerçekleştirilirken toplantılar için fonksiyonabilitesi sebebiyle Discord tercih edilmiştir. Backlog'un sınırlı kapasitesi sebebiyle depolanması gerekli olmayan bazı dosya ve linkler de Discord sunucusunda tutulmuştur.
+
+* Toplantılara katılım sağlayamamış üyelerin geri kalmaması açısından kısa görüşme özetleri içeren döküman güncellenmemiştir çünkü hiçbir toplantıya doğru düzgün katılım sağlanmadığından toplantıda konuşulması gereken konular daily scrum'la WhatsApp üzerinden gerçekleşmiştir.
+
+
+
+* <h2> Backlog Görselleri: </h2> </br>
+
+![canvas_oua-45-240802_1607](https://github.com/user-attachments/assets/2bcda5e5-62c1-44bf-96ae-c4a41d3a319a)
+
+> Sprint içerikleri renk kodlarıyla ayrılmıştır. Sprint 3 kırmızı başlıklı görevleri içermektedir. Ayrıyeten öncelikli görevler highlightlanmıştır. </br>
+
+
+* <h2> Toplantı ve Sohbet Görselleri, Anketler: </h2> </br>
+
+![Discord](https://github.com/user-attachments/assets/c02909ed-3298-44e9-95c9-dda1053fd674)</br>
+
+
+* <h2> Ürün Durumu: </h2> </br>
+
+ÜRÜN DURUMU FOTOSU EKLENECEK UNUTMA EKLEEEEEEEEEEEEEEEEEEEEEEEEEEEEE EN SOOOOOOOOONNNNN !!!!!!!!!!!!!</br>
+
+
+* <h2>Sprint 3 Review: </h2>
+     <li>Bulmacalar ve oyun mekanikleri bir araya getirildi. Birbirleriyle etkileşimleri sağlandı.</li>
+     <li>Bazı takım üyeleri GitHub hakkında gerekli araştırmalarda bulundu ve öğrendiklerini diğer üyelere aktardı. Çok sayıda conflictle karşılaşıldı ancak hepsi teker teker çözüldü.</li>
+     <li>Bazı texture'ler, sahnelerin ayrıntıları, karga'nın kontrolleri ve animasyonları gibi kilit noktalar oluşturuldu ve bir araya getirildi.</li>
+     <li>Ses efektleri, görsel efektler ve müzikler oyuna eklendi.</li>
+     <li>Sprint 2'de storyboard olarak tasarlanmış cutsceneler renderlandı. Oyun içine ve cutscenelere replikler ve yazılar eklendi.</li>
+     <li>Sprint Review katılımcıları: Serenat Varol, Sevde Rukiye Çakmak, Salih Karakuş, Rıdvan Karasubaşı
+            <li>●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●</li>
+     <li>Sprint 3 sürecinin özellikle ilk haftası takımın büyük çoğunluğunu etkisi altına alan rehavet, teslim tarihi yaklaştıkça gerginliğin ve dolayısıyla anlaşmazlığın artmasına sebep oldu. Takım üyeleri arası tartışmalar yaşandı ve scrum master'ın uzlaşmacı yaklaşımının zaman zaman tek taraflı kalması nahoş anlara yol açtı. Takım üyelerinin projenin tamamlanmasını ve teslimini göz önünde bulundurması gerektiğine dair uyarılar yapıldı. Projeyi kapatma zamanı geldiğinde ise, yaşanan rahatsızlık dile getirildi. Bu durumun en büyük suçlusunun proje dahilinde ortaya çıkan beklenmedik hatalar, talihsizlikler ve deadline'lardan kaynaklanan <b>stres</b> olduğuna dair ortak karar verildi.</li>
+ 
+      
+* <h2>Sprint 3 Retrospect: </h2>
+      <li>Oyuncu ve düşman karakter tasarımı, birden fazla player controller kodu, 4 adet 3D, 2 adet 2D map tasarımı, UI için açılan ayrıca 3D interaktif sahne tasarımı, farklı bulmaca mekanikleri, karakter, düşman ve çevre animasyonları, kamera ve sahne entegrasyonu yapılmıştır.</li>
+      <li>Build alınmıştır.</li>
+      <li>Sprint review için toplantılar alınmış, takım üyelerinin süreç hakkında yorumları konuşulmuş, memnuniyet analizi yapılmıştır.</li>
+
+
+
+
 
 </details>
 
