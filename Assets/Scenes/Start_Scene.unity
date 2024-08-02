@@ -403,7 +403,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &268086292
 Canvas:
   m_ObjectHideFlags: 0
@@ -1478,16 +1478,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df987388c1f845338cca2380067f7191, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onlyKeyboard: 0
-  rotationSpeed: 60
-  mouseVerticaleClamp: {x: -5, y: 40}
-  smoothMouse: 1
-  liftOn: 1
-  liftClamp: {x: 0, y: 5}
-  smoothLift: 0.5
-  camTransform: {fileID: 159944241}
-  camClamp: {x: -30, y: 10}
-  smoothCam: 0.5
 --- !u!1 &2036607001
 GameObject:
   m_ObjectHideFlags: 0

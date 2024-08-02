@@ -4,20 +4,20 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Linq; // LINQ kÃ¼tÃ¼phanesini ekleyin
 
 public class MissionManager : MonoBehaviour
 {
-    public Mission[] missions; // Sorular
+    public Mission[] missions; // GÃ¶revler
 
-    public TMP_Text missionTextPrefab; // Önceden hazýrlanmýþ TMP_Text bileþeni
-    public Vector2 startPosition; // TMP_Text bileþeni için pozisyon ayarý
-    public Transform parentTransform; // TMP_Text bileþenlerinin ekleneceði parent Transform
+    public TMP_Text missionTextPrefab; // Ã–nceden hazÄ±rlanmÄ±ÅŸ TMP_Text bileÅŸeni
+    public Vector2 startPosition; // TMP_Text bileÅŸeni iÃ§in pozisyon ayarÄ±
+    public Transform parentTransform; // TMP_Text bileÅŸenlerinin ekleneceÄŸi parent Transform
     int yVal = 35;
 
     [System.Serializable]
     public struct Mission
     {
-		
         public string mission_name;
         public bool is_completed;
 
@@ -25,16 +25,26 @@ public class MissionManager : MonoBehaviour
         public Sprite crossImageCarpi;
     }
 
+    // GÃ¶revlerin tamamlanÄ±p tamamlanmadÄ±ÄŸÄ±nÄ± kontrol eden method
+    public bool AreAllMissionsCompleted()
+    {
+        return missions.All(m => m.is_completed);
+    }
+
+    // GÃ¶revlerin tamamlanma durumunu izleyen bir event oluÅŸtur
+    public delegate void OnAllMissionsCompletedHandler();
+    public event OnAllMissionsCompletedHandler OnAllMissionsCompleted;
+
     public void Setup(Mission[] missions)
     {
         int missionNum = 0;
 
         foreach (var mission in missions)
         {
-            // Yeni bir TMP_Text bileþeni oluþtur
+            // Yeni bir TMP_Text bileÅŸeni oluÅŸtur
             TMP_Text newMissionText = Instantiate(missionTextPrefab, parentTransform);
 
-            // Görevin adýný ayarla
+            // GÃ¶revin adÄ±nÄ± ayarla
             newMissionText.text = mission.mission_name;
 
             // Pozisyonu ayarla
@@ -44,7 +54,7 @@ public class MissionManager : MonoBehaviour
             Image childImage = newMissionText.GetComponentInChildren<Image>();
             if (childImage != null)
             {
-                // Image bileþenini gizle
+                // Image bileÅŸenini gizle
                 childImage.gameObject.SetActive(false);
             }
 
@@ -55,5 +65,13 @@ public class MissionManager : MonoBehaviour
     private void Start()
     {
         Setup(missions);
+    }
+
+    private void Update()
+    {
+        if (AreAllMissionsCompleted())
+        {
+            OnAllMissionsCompleted?.Invoke();
+        }
     }
 }
