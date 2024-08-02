@@ -190,7 +190,8 @@ kriterlerine göre belirlenmiştir. Mavi renkle üzeri çizili görevlerin bitir
       
 * <h2>Sprint 3 Retrospect: </h2>
       <li>Oyuncu ve düşman karakter tasarımı, birden fazla player controller kodu, 4 adet 3D, 2 adet 2D map tasarımı, UI için açılan ayrıca 3D interaktif sahne tasarımı, farklı bulmaca mekanikleri, karakter, düşman ve çevre animasyonları, kamera ve sahne entegrasyonu yapılmıştır.</li>
-
+      <li>Build alınmıştır.</li>
+      <li>Sprint review için toplantılar alınmış, takım üyelerinin süreç hakkında yorumları konuşulmuş, memnuniyet analizi yapılmıştır.</li>
 
 
 
