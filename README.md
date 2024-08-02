@@ -3,7 +3,7 @@
 
 ## Takım Üyeleri
 - ***Serenat Varol*** - Scrum Master / Product Owner / Designer
-- ***Sevde Rukiye Çakmak*** - Developer
+- ***Sevde Rukiye Çakmak*** - Developer / Puzzle Designer
 - ***Salih Karakuş*** - Developer / Environmental Designer
 - ***Rıdvan Karasubaşı*** - Developer
 - ***Ömer Faruk Bingöl*** - Developer
@@ -154,11 +154,52 @@ kriterlerine göre belirlenmiştir. Mavi renkle üzeri çizili görevlerin bitir
 * Bu süreçte araştırma ve implemetasyon baş başa ilerlemiştir. Sprint 2'de sözel, yazısal veya görsel olarak tasarlanan bazı alternatiflerin denenmesi ve bazılarının takım tarafından daha çok beğenilmesi veya daha az sorun çıkarması sebepleriyle seçilmesi sonucu oyunda genel bir süreklilikten ziyade oyuncu memnuniyeti göz önünde bulundurulmuştur. Son dakika hatalarına karşılık dinamik çözüm yöntemleri geliştirilmiş, Discord sunucusu toplu beyin fırtınalarına ev sahipliği yapmıştır.
 * Toplamda 5 defa projenin çeşitli kısımlarında veri kaybı yaşanmış, bu veri kayıplarının 4ü teknik arızalar gibi öngörülemez sebeplerden gerçekleşmiş, 1i ise koordinasyon ve iletişim eksikliği kaynaklıdır. Veri kayıplarının tamamı bazı görevleri sıfırdan yapma pahasına telafi edilmiştir.
 * Tamamlanan görevlerin bir kısmı üyelerin branchlerine pushlanmıştır. En son main branchte bir araya getirme işleminin sakıncasız olması açısından takım üyelerinin gözetimi altında canlı şekilde Sprint 3'te gerçekleştirilmesi planlanmaktadır.
-* UI / UX, VFX, SFX ve müzikler, bulmacalar, kombatlar, animasyonlar, bazı scriptler ve kontroller, 
+* UI / UX, VFX, SFX ve müzikler, bulmacalar, kombatlar, animasyonlar, bazı scriptler ve kontroller, bütün sahnelerin ve bölümlerin birleştirilmesi ve bugfixing bu Sprint'in görev ağacını kısaca özetlemektedir.
   
 * <b>Daily Scrum: </b> Günlük konuşmalar ve anketler Whatsapp üzerinden gerçekleştirilirken toplantılar için fonksiyonabilitesi sebebiyle Discord tercih edilmiştir. Backlog'un sınırlı kapasitesi sebebiyle depolanması gerekli olmayan bazı dosya ve linkler de Discord sunucusunda tutulmuştur.
 
 * Toplantılara katılım sağlayamamış üyelerin geri kalmaması açısından kısa görüşme özetleri içeren döküman güncellenmemiştir çünkü hiçbir toplantıya doğru düzgün katılım sağlanmadığından toplantıda konuşulması gereken konular daily scrum'la WhatsApp üzerinden gerçekleşmiştir.
+
+
+
+* <h2> Backlog Görselleri: </h2> </br>
+
+![canvas_oua-45-240802_1607](https://github.com/user-attachments/assets/2bcda5e5-62c1-44bf-96ae-c4a41d3a319a)
+
+> Sprint içerikleri renk kodlarıyla ayrılmıştır. Sprint 3 kırmızı başlıklı görevleri içermektedir. Ayrıyeten öncelikli görevler highlightlanmıştır. </br>
+
+
+* <h2> Toplantı ve Sohbet Görselleri, Anketler: </h2> </br>
+
+![Discord](https://github.com/user-attachments/assets/c02909ed-3298-44e9-95c9-dda1053fd674)</br>
+
+
+* <h2> Ürün Durumu: </h2> </br>
+
+ÜRÜN DURUMU FOTOSU EKLENECEK UNUTMA EKLEEEEEEEEEEEEEEEEEEEEEEEEEEEEE EN SOOOOOOOOONNNNN !!!!!!!!!!!!!</br>
+
+
+* <h2>Sprint 3 Review: </h2>
+     <li>Bulmacalar ve oyun mekanikleri bir araya getirildi. Birbirleriyle etkileşimleri sağlandı.</li>
+     <li>Sprint'e özel roadmap çıkarıldı. </li>
+     <li>Haritanın kaç bölge olacağı belirlendi, en kapsamlı bölge tasarlandı.</li>
+     <li>Sprint Review katılımcıları: Serenat Varol
+     <li>Sprint 2 boyunca zaman yetersizliği sebebiyle süreç çok stresli geçti, görevleri bitirebilmek tüm takımı zorladı. Sprint 3'ün daha ağır geçecek olması sebebiyle görevlere spesifik deadlinelar atanıp bütün görevlerin son ana yığılmasına karar verildi.</li>
+     <li>Sprint 1'de yazılan rapordaki bir üyenin ismindeki yazım yanlışı düzeltildi.</li>
+      <li>Takım içi rollerde değişime gidildi. (Product Owner: Serenat Varol) </li>
+      
+* <h2>Sprint 3 Retrospect: </h2>
+      <li>Bulmacalar için Product Owner takıma birçok seçenek sundu, hikayeye en uygun olanlar veya tasarımı hoşumuza gidenler ilham kaynağı olarak seçildi. Farklı oyunlar ve hatta gerçek hayattan yaptığımız gözlemleri kendi oyunumuza uyarladı.</li>
+      <li>Sprint içi ve sonraki sprintler üzerine roadmap çıkarıldı.</li>
+      <li>Bu sprintte de hem iş yüküne hem de kişisel yönelimlere dayalı görev dağılımına gidilmiştir.</li>
+      <li>Bulmacalar kodlama grubu üyelerine bölüştürülmüştür. Tasarım grubu ise beraber asset araştırmış ve haritanın belli bir kısmını tasarlamıştır. Her şey Sprint 3'te bir araya gelecektir.</li>
+      <li>Senaryolar, interaksiyonlar, algoritmalar ve replikler yazılmıştır.</li>
+      <li>Oyuncuyu yönlendirmek adına Oyun İçi Görev Ağacı olmasına ve bu ağaçta sırayla hangi görevlerin olacağına karar verilmiştir.</li>
+
+
+
+
+
 
 </details>
 
