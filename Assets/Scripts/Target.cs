@@ -2,12 +2,26 @@ using UnityEngine;
 
 public class Target : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    public float dropHeight; // Mücevherin bırakıldığı yükseklik
+    private bool hasChecked = false; // Yüksekliği kontrol edip etmediğini belirten bayrak
+
+    private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Ground")
+        if (!hasChecked && collision.gameObject.CompareTag("Ground")) // Yere çarptığında kontrol et
         {
-            // Mücevher zemine çarptığında yapılacak işlemler
-            Debug.Log("Jewel dropped successfully!");
+            hasChecked = true;
+
+            if (dropHeight >= 3f)
+            {
+                // Mücevher belirtilen yüksekliğin üzerindeyse yok et
+                Destroy(gameObject); // gameObject'in kendisini yok ediyoruz
+                Debug.Log("Jewel destroyed due to high drop!");
+            }
+            else
+            {
+                // Mücevher belirtilen yüksekliğin altında ise, tekrar alınabilir
+                Debug.Log("Jewel can be picked up again!");
+            }
         }
     }
 }

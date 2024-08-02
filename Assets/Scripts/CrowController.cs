@@ -6,10 +6,10 @@ public class CrowController : MonoBehaviour
     public float moveSpeed = 2f; // Hareket hızı
     public float verticalMoveSpeed = 3f; // Yukarı ve aşağı hareket hızı
     private bool isHolding = false; // Başlangıçta mücevheri tutmuyor
+    public float dropHeight; // Mücevherin bırakıldığı yükseklik
 
     void Update()
     {
-
         // Kargayı yatayda ve dikeyde hareket ettirmek için
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
@@ -31,6 +31,7 @@ public class CrowController : MonoBehaviour
         // Mücevheri tutma ve bırakma
         if (Input.GetKeyDown(KeyCode.E))
         {
+
             if (isHolding)
             {
                 DropJewel();
@@ -51,9 +52,25 @@ public class CrowController : MonoBehaviour
     void DropJewel()
     {
         isHolding = false;
-        jewel.SetParent(null);
-        jewel.GetComponent<Rigidbody>().isKinematic = false; // Mücevherin fiziksel etkilerini aç
+        dropHeight = transform.position.y; // Bırakılan yüksekliği kaydet
+        jewel.SetParent(null); // Mücevheri kargadan ayır
+        Rigidbody jewelRigidbody = jewel.GetComponent<Rigidbody>();
+
+        if (jewelRigidbody != null)
+        {
+            jewelRigidbody.isKinematic = false; // Mücevherin fiziksel etkilerini aç
+            jewelRigidbody.useGravity = true; // Eğer gerekli ise, yer çekimini aktif et
+        }
+
+        // Mücevherin yüksekliğini JewelData bileşenine ata
+        Target target = jewel.GetComponent<Target>();
+        if (target != null)
+        {
+            target.dropHeight = dropHeight;
+        }
     }
+
+
 
     void PickupJewel()
     {
@@ -63,6 +80,8 @@ public class CrowController : MonoBehaviour
             jewel.SetParent(transform);
             jewel.localPosition = new Vector3(0, -1, 0); // Mücevheri karganın altına yerleştir
             jewel.GetComponent<Rigidbody>().isKinematic = true; // Mücevherin fiziksel etkilerini kapat
+
+            
         }
     }
 }

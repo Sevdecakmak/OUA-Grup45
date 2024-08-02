@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
     public GameObject menuPanel;
+   
 
     private bool isMenuActive = false;
 
@@ -23,6 +24,7 @@ public class MenuManager : MonoBehaviour
             isMenuActive = !isMenuActive;
             menuPanel.SetActive(isMenuActive);
             Time.timeScale = isMenuActive ? 0 : 1; // Oyunu duraklat/başlat
+          
         }
     }
 
@@ -31,14 +33,15 @@ public class MenuManager : MonoBehaviour
         isMenuActive = false;
         menuPanel.SetActive(false);
         Time.timeScale = 1; // Oyunu başlat
+       
     }
 
-    public void GoToMainMenu()
+    //çalışmıyor..
+    /*public void GoToMainMenu()
     {
-        Time.timeScale = 1; // Oyunu başlat
+        Time.timeScale = 1;
         SceneManager.LoadScene(0);
-        menuPanel.SetActive(true);
-    }
+    }*/
 
     public void QuitGame()
     {
