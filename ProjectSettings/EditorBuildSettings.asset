@@ -9,6 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/SceneStart.unity
     guid: c194926323f9846798695c3d9d0d9277
   - enabled: 1
-    path: Assets/Scenes/SceneDarknessLab.unity
-    guid: 06d9290afca604462b82174e196d65d4
+    path: Assets/Scenes/forest.unity
+    guid: 15c9381e712ecb94caa7a987cc6c27ae
+  - enabled: 1
+    path: Assets/Scenes/Laby.unity
+    guid: d291357f869742f49b9f4321077163c2
+  - enabled: 1
+    path: Assets/Scenes/Main_Hall.unity
+    guid: 14a2c64dbd956d346b9f674d144cc297
+  - enabled: 1
+    path: Assets/Scenes/grass_field.unity
+    guid: 7f7e240a2e832924b87ddb641e910f85
+  - enabled: 1
+    path: Assets/Scenes/Tangram.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/emoji_game_2d.unity
+    guid: b1d5bea6910cb2e4d9c3d07d5e920ba4
   m_configObjects: {}
