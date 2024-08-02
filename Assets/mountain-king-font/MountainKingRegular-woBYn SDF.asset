@@ -1006,6 +1006,51 @@ MonoBehaviour:
     m_Scale: 1
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
+  - m_Index: 22
+    m_Metrics:
+      m_Width: 34.1875
+      m_Height: 73.828125
+      m_HorizontalBearingX: 1.84375
+      m_HorizontalBearingY: 64.78125
+      m_HorizontalAdvance: 37.796875
+    m_GlyphRect:
+      m_X: 283
+      m_Y: 241
+      m_Width: 36
+      m_Height: 75
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 20
+    m_Metrics:
+      m_Width: 41.390625
+      m_Height: 74.28125
+      m_HorizontalBearingX: 1.765625
+      m_HorizontalBearingY: 64.78125
+      m_HorizontalAdvance: 45
+    m_GlyphRect:
+      m_X: 240
+      m_Y: 454
+      m_Width: 43
+      m_Height: 75
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 21
+    m_Metrics:
+      m_Width: 39.640625
+      m_Height: 73.921875
+      m_HorizontalBearingX: 1.84375
+      m_HorizontalBearingY: 64.78125
+      m_HorizontalAdvance: 43.15625
+    m_GlyphRect:
+      m_X: 286
+      m_Y: 335
+      m_Width: 41
+      m_Height: 75
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
   m_CharacterTable:
   - m_ElementType: 1
     m_Unicode: 32
@@ -1234,6 +1279,18 @@ MonoBehaviour:
   - m_ElementType: 1
     m_Unicode: 71
     m_GlyphIndex: 42
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 51
+    m_GlyphIndex: 22
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 49
+    m_GlyphIndex: 20
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 50
+    m_GlyphIndex: 21
     m_Scale: 1
   m_AtlasTextures:
   - {fileID: 5007827672845923065}
@@ -1622,25 +1679,9 @@ MonoBehaviour:
     m_Y: 350
     m_Width: 41
     m_Height: 27
-  - m_X: 200
-    m_Y: 444
-    m_Width: 823
-    m_Height: 26
-  - m_X: 230
-    m_Y: 444
-    m_Width: 793
-    m_Height: 120
-  - m_X: 271
-    m_Y: 444
-    m_Width: 752
-    m_Height: 579
   - m_X: 176
     m_Y: 241
     m_Width: 41
-    m_Height: 16
-  - m_X: 217
-    m_Y: 334
-    m_Width: 806
     m_Height: 16
   - m_X: 223
     m_Y: 136
