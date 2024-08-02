@@ -174,7 +174,9 @@ kriterlerine göre belirlenmiştir. Mavi renkle üzeri çizili görevlerin bitir
 
 * <h2> Ürün Durumu: </h2> </br>
 
-ÜRÜN DURUMU FOTOSU EKLENECEK UNUTMA EKLEEEEEEEEEEEEEEEEEEEEEEEEEEEEE EN SOOOOOOOOONNNNN !!!!!!!!!!!!!</br>
+![image](https://github.com/user-attachments/assets/5899f21f-810d-4a1f-9f05-275c586bfd32)</br>
+![image](https://github.com/user-attachments/assets/1e29c8b4-5802-48dc-bc06-b5ad23b531ee)</br>
+![image](https://github.com/user-attachments/assets/56ffa3be-263e-4357-aff6-0d9fd3a2aa21)</br>
 
 
 * <h2>Sprint 3 Review: </h2>
