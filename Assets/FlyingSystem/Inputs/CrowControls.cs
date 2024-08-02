@@ -125,7 +125,7 @@ public partial class @CrowControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""cc995756-e6c6-4632-9c86-e43be7821a8e"",
-                    ""path"": ""<Mouse>/leftButton"",
+                    ""path"": ""<Mouse>/rightButton"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -185,6 +185,15 @@ public partial class @CrowControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": ""Hold"",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Attack"",
+                    ""type"": ""Button"",
+                    ""id"": ""c1b77718-63a4-4ed1-8f82-2356795b854f"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -231,6 +240,17 @@ public partial class @CrowControls: IInputActionCollection2, IDisposable
                     ""action"": ""Fly"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b11f30d5-17f6-4e56-b82b-d93f0c577c4b"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Attack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -248,6 +268,7 @@ public partial class @CrowControls: IInputActionCollection2, IDisposable
         m_CrowActions_Jump = m_CrowActions.FindAction("Jump", throwIfNotFound: true);
         m_CrowActions_X = m_CrowActions.FindAction("X", throwIfNotFound: true);
         m_CrowActions_Fly = m_CrowActions.FindAction("Fly", throwIfNotFound: true);
+        m_CrowActions_Attack = m_CrowActions.FindAction("Attack", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -375,6 +396,7 @@ public partial class @CrowControls: IInputActionCollection2, IDisposable
     private readonly InputAction m_CrowActions_Jump;
     private readonly InputAction m_CrowActions_X;
     private readonly InputAction m_CrowActions_Fly;
+    private readonly InputAction m_CrowActions_Attack;
     public struct CrowActionsActions
     {
         private @CrowControls m_Wrapper;
@@ -383,6 +405,7 @@ public partial class @CrowControls: IInputActionCollection2, IDisposable
         public InputAction @Jump => m_Wrapper.m_CrowActions_Jump;
         public InputAction @X => m_Wrapper.m_CrowActions_X;
         public InputAction @Fly => m_Wrapper.m_CrowActions_Fly;
+        public InputAction @Attack => m_Wrapper.m_CrowActions_Attack;
         public InputActionMap Get() { return m_Wrapper.m_CrowActions; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -404,6 +427,9 @@ public partial class @CrowControls: IInputActionCollection2, IDisposable
             @Fly.started += instance.OnFly;
             @Fly.performed += instance.OnFly;
             @Fly.canceled += instance.OnFly;
+            @Attack.started += instance.OnAttack;
+            @Attack.performed += instance.OnAttack;
+            @Attack.canceled += instance.OnAttack;
         }
 
         private void UnregisterCallbacks(ICrowActionsActions instance)
@@ -420,6 +446,9 @@ public partial class @CrowControls: IInputActionCollection2, IDisposable
             @Fly.started -= instance.OnFly;
             @Fly.performed -= instance.OnFly;
             @Fly.canceled -= instance.OnFly;
+            @Attack.started -= instance.OnAttack;
+            @Attack.performed -= instance.OnAttack;
+            @Attack.canceled -= instance.OnAttack;
         }
 
         public void RemoveCallbacks(ICrowActionsActions instance)
@@ -449,5 +478,6 @@ public partial class @CrowControls: IInputActionCollection2, IDisposable
         void OnJump(InputAction.CallbackContext context);
         void OnX(InputAction.CallbackContext context);
         void OnFly(InputAction.CallbackContext context);
+        void OnAttack(InputAction.CallbackContext context);
     }
 }

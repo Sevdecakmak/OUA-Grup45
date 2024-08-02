@@ -22,10 +22,11 @@ public class InputManager : MonoBehaviour
     public bool x_Input;
     public bool jump_Input;
     public bool fly_Input;
+    public bool attack_Input;
 
 
-    public delegate void MouseLeftClickAction();
-    public static event MouseLeftClickAction OnMouseLeftClick;
+    public delegate void MouseRightClickAction();
+    public static event MouseRightClickAction OnMouseRightClick;
 
     public delegate void EscapeAction();
     public static event EscapeAction OnEscape;
@@ -63,6 +64,9 @@ public class InputManager : MonoBehaviour
             crowControls.CrowActions.Fly.started += i => OnFlyStarted(i);
             crowControls.CrowActions.Fly.performed += i => OnFlyPerformed(i);
             crowControls.CrowActions.Fly.canceled += i => OnFlyCanceled(i);
+
+            crowControls.CrowActions.Attack.performed += i => attack_Input = true;
+            crowControls.CrowActions.Attack.canceled += i => attack_Input = false;
         }
         crowControls.Enable();
     }
@@ -79,7 +83,7 @@ public class InputManager : MonoBehaviour
         HandleJumpingInput();
         HandleDodgeInput();
         HandleFlyingInput();
-        // HandleAttackInput();
+        HandleAttackingInput();
     }
     private void HandleMovementInput()
     {
@@ -133,6 +137,17 @@ public class InputManager : MonoBehaviour
         }
     }
 
+    private void HandleAttackingInput()
+    {
+        if (attack_Input)
+        {
+            crowController.isAttacking = true;
+        }
+        else
+        {
+            crowController.isAttacking = false;
+        }
+    }
     private void OnFlyStarted(InputAction.CallbackContext context)
     {
         Debug.Log("Fly started");
@@ -151,9 +166,9 @@ public class InputManager : MonoBehaviour
 
     private void OnClickPerformed(InputAction.CallbackContext context)
     {
-        if (context.control.name == "leftButton")
+        if (context.control.name == "rightButton")
         {
-            OnMouseLeftClick?.Invoke();
+            OnMouseRightClick?.Invoke();
         }
     }
     private void OnClickCanceled(InputAction.CallbackContext context)
