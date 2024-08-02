@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CrowLocomotion : MonoBehaviour
 {
@@ -53,6 +54,13 @@ public class CrowLocomotion : MonoBehaviour
     public float stickyTargetAmount = 1;
     public float combatCooldown = 2;
     private float currentCombatCooldown;
+
+    [Header("Crow Healths")]
+    public float crowHp = 100;
+    public float currenctCrowHp;
+    public bool isDead;
+    public HealthBar crowHealthBar;
+    public float restartSceneDelay = 3f;
 
     #endregion
     private void Awake()
@@ -140,7 +148,7 @@ public class CrowLocomotion : MonoBehaviour
         var targetRotation = Quaternion.LookRotation(targetDirection);
 
         // Karganın ileriye bakmasını sağlamak için yazdım fakat karga kendi etrafında sürekli dönüyor.
-        targetRotation = Quaternion.Euler(targetRotation.eulerAngles.x, targetRotation.eulerAngles.y + 90, targetRotation.eulerAngles.z);
+        //targetRotation = Quaternion.Euler(targetRotation.eulerAngles.x, targetRotation.eulerAngles.y + 90, targetRotation.eulerAngles.z);
 
         var crowRotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
 
@@ -251,6 +259,28 @@ public class CrowLocomotion : MonoBehaviour
         {
             currentCombatCooldown = currentCombatCooldown - Time.deltaTime;
         }
+    }
+    #endregion
+
+    #region Die
+    public void Die()
+    {
+        Debug.Log("Crow is dead");
+        isDead = true;
+        animatorManager.animator.SetBool("isDead", true);
+        animatorManager.PlayTargetAnimation("Die", true);
+
+        // Karakter öldükten bir süre sonra sahne yeniden başlatılabilir.
+
+        StartCoroutine(RestartSceneAfterDeath());
+
+    }
+
+    private IEnumerator RestartSceneAfterDeath()
+    {
+        yield return new WaitForSeconds(restartSceneDelay);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        // Sahne yeniden başlatılacak.
     }
     #endregion
 }
