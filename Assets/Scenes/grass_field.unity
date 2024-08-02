@@ -14406,6 +14406,10 @@ PrefabInstance:
       propertyPath: damageTaken
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 1390566769569638046, guid: 0f84bb7a55b6ced419bedbd178a61db1, type: 3}
+      propertyPath: nextSceneIndex
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3210038967066495968, guid: 0f84bb7a55b6ced419bedbd178a61db1, type: 3}
       propertyPath: m_Enabled
       value: 1
