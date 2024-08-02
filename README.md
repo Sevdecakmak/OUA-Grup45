@@ -180,7 +180,9 @@ kriterlerine göre belirlenmiştir. Mavi renkle üzeri çizili görevlerin bitir
 
 * <h2>Sprint 3 Review: </h2>
      <li>Bulmacalar ve oyun mekanikleri bir araya getirildi. Birbirleriyle etkileşimleri sağlandı.</li>
+     <\br>
      <li>Sprint'e özel roadmap çıkarıldı. </li>
+     <\br>
      <li>Bazı texture'ler, sahnelerin ayrıntıları, karga'nın kontrolleri ve animasyonları gibi kilit noktalar oluşturuldu ve bir araya getirildi.</li>
      <li>Ses efektleri, görsel efektler ve müzikler oyuna eklendi.</li>
      <li>Sprint 2'de storyboard olarak tasarlanmış cutsceneler renderlandı. Oyun içine ve cutscenelere replikler ve yazılar eklendi.</li>
