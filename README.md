@@ -181,9 +181,11 @@ kriterlerine göre belirlenmiştir. Mavi renkle üzeri çizili görevlerin bitir
 * <h2>Sprint 3 Review: </h2>
      <li>Bulmacalar ve oyun mekanikleri bir araya getirildi. Birbirleriyle etkileşimleri sağlandı.</li>
      <li>Sprint'e özel roadmap çıkarıldı. </li>
-     <li>Haritanın kaç bölge olacağı belirlendi, en kapsamlı bölge tasarlandı.</li>
+     <li>Bazı texture'ler, sahnelerin ayrıntıları, karga'nın kontrolleri ve animasyonları gibi kilit noktalar oluşturuldu ve bir araya getirildi.</li>
+     <li>Ses efektleri, görsel efektler ve müzikler oyuna eklendi.</li>
+     <li>Sprint 2'de storyboard olarak tasarlanmış cutsceneler renderlandı. Oyun içine ve cutscenelere replikler ve yazılar eklendi.</li>
      <li>Sprint Review katılımcıları: Serenat Varol, Sevde Rukiye Çakmak, Salih Karakuş, Rıdvan Karasubaşı
-     <li>Sprint 3 sürecinin özellikle ilk haftası takımın büyük çoğunluğunu etkisi altına alan rehavet, teslim tarihi yaklaştıkça gerginliğin ve dolayısıyla anlaşmazlığın artmasına sebep oldu. Takım üyeleri arası tartışmalar yaşandı ve scrum master'ın uzlaşmacı yaklaşımının zaman zaman tek taraflı kalması nahoş anlara yol açtı. Takım üyelerinin projenin tamamlanmasını göz önünde bulundurması gerektiğine dair uyarılar yapıldı. Projeyi kapatma zamanı geldiğinde ise, review toplantısında yaşanan rahatsızlık dile getirildi. Bu durumun en büyük suçlusunun proje dahilinde beklenmedik hatalar, talihsizlikler ve deadline'lardan kaynaklanan stres olduğuna dair ortak karar verildi.</li>
+     <li>Sprint 3 sürecinin özellikle ilk haftası takımın büyük çoğunluğunu etkisi altına alan rehavet, teslim tarihi yaklaştıkça gerginliğin ve dolayısıyla anlaşmazlığın artmasına sebep oldu. Takım üyeleri arası tartışmalar yaşandı ve scrum master'ın uzlaşmacı yaklaşımının zaman zaman tek taraflı kalması nahoş anlara yol açtı. Takım üyelerinin projenin tamamlanmasını ve teslimini göz önünde bulundurması gerektiğine dair uyarılar yapıldı. Projeyi kapatma zamanı geldiğinde ise, yaşanan rahatsızlık dile getirildi. Bu durumun en büyük suçlusunun proje dahilinde ortaya çıkan beklenmedik hatalar, talihsizlikler ve deadline'lardan kaynaklanan <b>stres</b> olduğuna dair ortak karar verildi.</li>
      <li>Sprint 1'de yazılan rapordaki bir üyenin ismindeki yazım yanlışı düzeltildi.</li>
       <li>Takım içi rollerde değişime gidildi. (Product Owner: Serenat Varol) </li>
       
