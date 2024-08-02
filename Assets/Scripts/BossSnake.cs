@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; // Sahne yönetimi için gerekli kütüphane
 
 public class BossSnake : MonoBehaviour
 {
@@ -19,6 +20,10 @@ public class BossSnake : MonoBehaviour
     private Animator animator;
     private bool isTaunting = false;
     public bool isSnakeAttacking;
+    private object butterrr;
+
+    [Header("Scene Management")]
+    public int nextSceneIndex; // Yüklenecek sonraki sahnenin indeksi
 
     private void Start()
     {
@@ -60,14 +65,14 @@ public class BossSnake : MonoBehaviour
             //animator.SetTrigger("Attack");
         }
 
-        if(distance > attackRadius)
+        if (distance > attackRadius)
         {
             isSnakeAttacking = false;
             animator.SetBool("isSnakeAttacking", false);
         }
     }
 
-    private void OnCollisionEnter(Collision other) 
+    private void OnCollisionEnter(Collision other)
     {
         CrowLocomotion crowController = other.gameObject.GetComponent<CrowLocomotion>();
         if (crowController != null && crowController.isAttacking)
@@ -79,11 +84,11 @@ public class BossSnake : MonoBehaviour
                 Die();
             }
         }
-        else if(crowController != null && isSnakeAttacking)
+        else if (crowController != null && isSnakeAttacking)
         {
             crowController.crowHealthBar.TakeDamage(damage);        // 10 hasar kargaya veriyor.
             crowController.currenctCrowHp = crowController.crowHealthBar.health;
-            if(crowController.currenctCrowHp <= 0)
+            if (crowController.currenctCrowHp <= 0)
             {
                 crowController.Die();
             }
@@ -105,9 +110,21 @@ public class BossSnake : MonoBehaviour
         isTaunting = false;
     }
 
-    private void Die()
+    public void Die()
     {
         Debug.Log("Boss Snake is dead!");
         animator.SetTrigger("Die");
+
+        // Ölüm animasyonu bittikten sonra sahneyi değiştirmek için bir coroutine başlat
+        StartCoroutine(ChangeSceneAfterDeath());
+    }
+
+    private IEnumerator ChangeSceneAfterDeath()
+    {
+        // Ölüm animasyonunun süresini bekle (örneğin 2 saniye)
+        yield return new WaitForSeconds(2f);
+
+        // Yeni sahneyi yükle (sahne indeksini belirtin)
+        SceneManager.LoadScene(nextSceneIndex);
     }
 }
