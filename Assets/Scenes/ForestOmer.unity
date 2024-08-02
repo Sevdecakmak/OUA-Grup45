@@ -38,6 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.4
   m_CustomReflection: {fileID: 8900000, guid: f625b0e7682e4deaa90d46f6dbcd68a6, type: 2}
   m_Sun: {fileID: 705507994}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2401,16 +2402,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df987388c1f845338cca2380067f7191, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onlyKeyboard: 0
-  rotationSpeed: 60
-  mouseVerticaleClamp: {x: -5, y: 40}
-  smoothMouse: 1
-  liftOn: 1
-  liftClamp: {x: 0, y: 5}
-  smoothLift: 0.5
-  camTransform: {fileID: 1306983622}
-  camClamp: {x: -30, y: 10}
-  smoothCam: 0.5
 --- !u!4 &1449845685
 Transform:
   m_ObjectHideFlags: 0
@@ -3358,7 +3349,7 @@ Transform:
   m_GameObject: {fileID: 1961722518}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -48.5, y: 33.73, z: 85.68}
+  m_LocalPosition: {x: -48.13, y: 33.73, z: 86.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3378,6 +3369,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   crowHealthBar: {fileID: 881277195}
   healingAmount: 2
+--- !u!1 &1970882179 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5051005131957898322, guid: 0f84bb7a55b6ced419bedbd178a61db1, type: 3}
+  m_PrefabInstance: {fileID: 3693494848502203242}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1986100571
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3712,6 +3708,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemySnake
       objectReference: {fileID: 0}
+    - target: {fileID: 6019263412496643208, guid: 0f84bb7a55b6ced419bedbd178a61db1, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6245241259070311499, guid: 0f84bb7a55b6ced419bedbd178a61db1, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7361443366421876289, guid: 0f84bb7a55b6ced419bedbd178a61db1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -3731,13 +3735,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5051005131957898322, guid: 0f84bb7a55b6ced419bedbd178a61db1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7157312984631749893}
   m_SourcePrefab: {fileID: 100100000, guid: 0f84bb7a55b6ced419bedbd178a61db1, type: 3}
 --- !u!4 &7157312984631749886 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4977780034962900362, guid: 0f84bb7a55b6ced419bedbd178a61db1, type: 3}
   m_PrefabInstance: {fileID: 3693494848502203242}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &7157312984631749893
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970882179}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 0
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5461320835613783329, guid: 4fe969e0411c55647b26721bcf98431c, type: 3}
 --- !u!1001 &8191337358946933995
 PrefabInstance:
   m_ObjectHideFlags: 0
