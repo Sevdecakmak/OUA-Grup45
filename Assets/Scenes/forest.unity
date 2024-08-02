@@ -1052,7 +1052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
+  m_ScaleFactor: 2
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
@@ -1579,17 +1579,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 7898914686281044152, guid: 9029beab0dd9eb84aade1739487ed290, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2141477403}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9029beab0dd9eb84aade1739487ed290, type: 3}
---- !u!4 &376432521 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7898914686281044152, guid: 9029beab0dd9eb84aade1739487ed290, type: 3}
-  m_PrefabInstance: {fileID: 376432520}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &381943429
 GameObject:
   m_ObjectHideFlags: 0
