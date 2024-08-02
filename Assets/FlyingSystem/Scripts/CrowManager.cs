@@ -5,6 +5,7 @@ using UnityEngine;
 public class CrowManager : MonoBehaviour
 {
     private Animator animator;
+    private Animation animation;
     private InputManager inputManager;
     private CameraManager cameraManager;
     private CrowLocomotion crowController;
