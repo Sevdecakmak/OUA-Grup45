@@ -148,7 +148,16 @@ kriterlerine göre belirlenmiştir. Mavi renkle üzeri çizili görevlerin bitir
 
 <details><summary><h2>Sprint 3</h2></summary>
 
-Template olarak hazır, zamanı geldiğinde güncellenecek.
+* <b> Sprint içi puan değerlendirmesi </b> 150 puan üzerinden belirlenmiştir.  Görevler backlogda yapılacaklar listesi şeklinde tutulmuş, tamamlanan görevler işaretlenmiş ve spesifik üyelerin görevleri kendilerine atanmıştır. Sprint 3 150/150 tam puanla bitirilmiştir, ancak projeyi kapatma sürecinde olası problemlere bakmak için fazlaca zaman ayrılması mümkün olmamıştır. Proje her ne kadar hatasız çalışmakta olsa ve elzem denemeler tamamlanmış olsa da scrum master daha kapsamlı bir test süreci planlamış ve bu planlamanın gerisinde kalınmıştır. 
+
+* <b> Sprint Notu: </b> Sprint 3 süreci oyun mekanikleri, animasyonlar, bulmacalar, çevre tasarımları, cutsceneler ve özellikle efeklerin implementasyonuna, bugfixlere ve build almaya odaklanmıştır. Sahne geçişleri ve cutsceneler Sprint 1'de çıkarılan roadmap'e uygun şekilde ayarlanmış, sahnelerin indexleri düzenlenmiştir. Bu Sprint'te görevler ilgi alanlarına değil yetenek ve ayırılabilecek mesai sürelerine göre paylaştırılmış, zorlanılan hataların üstesinden imeceyle gelinmiştir. Takım üyelerinin büyük bir çoğunluğu Sprint sonuna yaklaşıncaya kadar minimal mesai harcamıştır. 
+* Bu süreçte ayrıca bazı senaryosal değişikliklere gidilmiş, karakterler arasında geçmesi hayal edilen interaksiyonlar ve kombat sahneleri yazıya dökülmüş, replikler yazılmış ve hikayesel algoritmalar çıkarılmıştır. Oyunun başında ve sonunda olması planlanan cutscene'ler için storyboard'lar oluşturulmuş ve takımın görüşleri alınmıştır.
+* Tamamlanan görevlerin bir kısmı üyelerin branchlerine pushlanmıştır. En son main branchte bir araya getirme işleminin sakıncasız olması açısından takım üyelerinin gözetimi altında canlı şekilde Sprint 3'te gerçekleştirilmesi planlanmaktadır.
+* UI / UX, VFX, SFX ve müzikler, bulmacalar, kombatlar, animasyonlar, bazı scriptler ve kontroller, 
+  
+* <b>Daily Scrum: </b> Günlük konuşmalar ve anketler Whatsapp üzerinden gerçekleştirilirken toplantılar için fonksiyonabilitesi sebebiyle Discord tercih edilmiştir. Backlog'un sınırlı kapasitesi sebebiyle depolanması gerekli olmayan bazı dosya ve linkler de Discord sunucusunda tutulmuştur.
+
+* Toplantılara katılım sağlayamamış üyelerin geri kalmaması açısından kısa görüşme özetleri içeren döküman güncellenmemiştir çünkü hiçbir toplantıya doğru düzgün katılım sağlanmadığından toplantıda konuşulması gereken konular daily scrum'la WhatsApp üzerinden gerçekleşmiştir.
 
 </details>
 
